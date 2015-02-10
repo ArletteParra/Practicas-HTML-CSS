@@ -20,7 +20,7 @@ padding:5px;
 
 aside {
 
-line-height:10%;
+line-height:100%;
 
 height:525px;
 
@@ -52,9 +52,8 @@ border: 2px solid black;
 padding: 10px 40px; 
 
 background-color: #cccccc;
-background-image: url("https://juntoscreamos.files.wordpress.com/2011/11/cuadro-minimalista.jpg");
+background-image: url("http://previews.123rf.com/images/oly5/oly51304/oly5130400227/19280582-abstract-white-background-gray-color-vintage-grunge-background-texture-frosty-silver-background-luxu.jpg");
 width: 50.68%;
-height: 500px;
 line-height:15px;
 border-radius: 20px;
 
