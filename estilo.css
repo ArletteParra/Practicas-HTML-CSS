@@ -1,0 +1,79 @@
+header {
+
+font-family:Times New Roman;
+font-size:30px;
+text-align:left;
+letter-spacing:10px;
+line-height:100%;
+background-color:black;
+color:white;
+
+position:fixed;
+
+width:98%;
+
+height:90px;
+
+padding:5px;
+}
+
+
+aside {
+
+line-height:10%;
+
+height:525px;
+
+width:20%;
+
+float:left;
+
+margin-top:102px;
+margin-bottom:2px;
+padding:5px;
+
+background-image:url("http://www.juliosoler.net/images/bg2.jpg");
+background-color:#61615f;
+font-size:20px;
+font-family:Times New Roman;
+color: white;
+}
+
+
+section {
+
+float:left;
+margin-top:102px;
+
+margin-left:10px;
+margin-right:10px;
+border: 2px solid black;
+
+padding: 10px 40px; 
+
+background-color: #cccccc;
+background-image: url("https://juntoscreamos.files.wordpress.com/2011/11/cuadro-minimalista.jpg");
+width: 50.68%;
+height: 500px;
+line-height:15px;
+border-radius: 20px;
+
+box-shadow: 3px 3px 20px black;
+
+font-size:15px;
+font-family:Georgia;
+}
+
+
+footer {
+
+background-color:black;
+
+color:white;
+
+clear:both;
+
+text-align:center;
+
+padding:5px;
+}
