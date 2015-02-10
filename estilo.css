@@ -20,7 +20,11 @@ padding:5px;
 
 aside {
 
+<<<<<<< HEAD
 line-height:100%;
+=======
+line-height:10%;
+>>>>>>> ef2bcfc265aa08b884ae3ab0aea77fd0f09953de
 
 height:525px;
 
@@ -52,8 +56,14 @@ border: 2px solid black;
 padding: 10px 40px; 
 
 background-color: #cccccc;
+<<<<<<< HEAD
 background-image: url("http://previews.123rf.com/images/oly5/oly51304/oly5130400227/19280582-abstract-white-background-gray-color-vintage-grunge-background-texture-frosty-silver-background-luxu.jpg");
 width: 50.68%;
+=======
+background-image: url("https://juntoscreamos.files.wordpress.com/2011/11/cuadro-minimalista.jpg");
+width: 50.68%;
+height: 500px;
+>>>>>>> ef2bcfc265aa08b884ae3ab0aea77fd0f09953de
 line-height:15px;
 border-radius: 20px;
 
