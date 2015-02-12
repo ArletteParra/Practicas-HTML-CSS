@@ -1,88 +1,93 @@
 header {
-
-font-family:Times New Roman;
-font-size:30px;
-text-align:left;
-letter-spacing:10px;
-line-height:100%;
-background-color:black;
-color:white;
-
-position:fixed;
-
-width:98%;
-
-height:90px;
-
-padding:5px;
+	font-family:Times New Roman;
+	font-size:30px;
+	text-align:left;
+	letter-spacing:10px;
+	line-height:100%;
+	background-color:black;
+	color:white;
+	position:fixed;
+	width:98%;
+	height:90px;
+	padding:5px;
 }
 
+ul.menu {
+	clear: both;
+	float: left;
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #7C7C7C;
+}
+
+ul.menu li {
+	float: left;
+	width: 20%;
+}
+
+ul.menu li a {
+	padding: .3em;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background: #F4F4F4;
+	border-top: 1px solid #7C7C7C;
+	border-right: 1px solid #7C7C7C;
+	border-bottom: 1px solid #9C9C9C;
+}
 
 aside {
-
-<<<<<<< HEAD
-line-height:100%;
-=======
-line-height:10%;
->>>>>>> ef2bcfc265aa08b884ae3ab0aea77fd0f09953de
-
-height:525px;
-
-width:20%;
-
-float:left;
-
-margin-top:102px;
-margin-bottom:2px;
-padding:5px;
-
-background-image:url("http://www.juliosoler.net/images/bg2.jpg");
-background-color:#61615f;
-font-size:20px;
-font-family:Times New Roman;
-color: white;
+	line-height:100%;
+	height:525px;
+	width:20%;
+	float:left;
+	margin-top: 180px; 
+	margin-bottom:2px;
+	padding:5px;
+	background-image:url("http://www.juliosoler.net/images/bg2.jpg");
+	background-color:#61615f;
+	font-size:20px;
+	font-family:Times New Roman;
+	color: white;
 }
 
 
 section {
+	float:left;
+	margin-top: 180px;
+	margin-left:10px;
+	margin-right:10px;
+	border: 2px solid black;
+	padding: 10px 40px; 
+	background-color: #cccccc;
+	background-image: url("http://previews.123rf.com/images/oly5/oly51304/oly5130400227/19280582-abstract-white-background-gray-color-vintage-grunge-background-texture-frosty-silver-background-luxu.jpg");
+	width: 50.68%;
+	line-height:15px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 20px black;
+	font-size:15px;
+	font-family:Georgia;
+}
 
-float:left;
-margin-top:102px;
+.intro {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
 
-margin-left:10px;
-margin-right:10px;
-border: 2px solid black;
-
-padding: 10px 40px; 
-
-background-color: #cccccc;
-<<<<<<< HEAD
-background-image: url("http://previews.123rf.com/images/oly5/oly51304/oly5130400227/19280582-abstract-white-background-gray-color-vintage-grunge-background-texture-frosty-silver-background-luxu.jpg");
-width: 50.68%;
-=======
-background-image: url("https://juntoscreamos.files.wordpress.com/2011/11/cuadro-minimalista.jpg");
-width: 50.68%;
-height: 500px;
->>>>>>> ef2bcfc265aa08b884ae3ab0aea77fd0f09953de
-line-height:15px;
-border-radius: 20px;
-
-box-shadow: 3px 3px 20px black;
-
-font-size:15px;
-font-family:Georgia;
+.col_caract {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 
 
 footer {
-
-background-color:black;
-
-color:white;
-
-clear:both;
-
-text-align:center;
-
-padding:5px;
+	background-color:black;
+	color:white;
+	clear:both;
+	text-align: center;
+	padding:5px;
 }
