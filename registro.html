@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8"></meta>
+  <title>Practica 3</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="estilo.css"></link>
+  <meta name="descripcion" content"Registrar cuenta"></meta>
+  <link rel="icon" type="image/x-icon" href="favi.icon"></link>
+  <link rel="stylesheet" href="font-awesome-4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div id="header"><h1>Crear una cuenta</h1></div>
+        <div id="contenedor">
+            <div id="inputs">
+                <form name="registro" action="#" method="post">
+                	<label for="nombre">Nombre</label>
+            	    <input type="text" name="nombre" value="" placeholder="Nombre"/><br/><br />
+            	    <label for="apellido">Apellido</label>
+            	    <input type="text" name="Apellido" value="" placeholder="Apellido"/><br/><br />
+            	    <label for="email">E-mail</label>
+            	    <input type="email" name="email" value="" placeholder="Email"/><br/><br />
+            	    <label for="phone">Teléfono</label>
+            	    <input type="tel" name="phone" value="" placeholder="Teléfono"/><br/><br />
+            	    <label for="password">Contraseña</label>
+            	    <input type="password" name="password" value="" placeholder="Contraseña"/><br/><br />
+                </form>
+            </div>
+            <div>
+                <form id="opciones">
+                	<label for="ciudad">Ciudad:</label>
+                	<select name="ciudad">
+                		<option value="guadalajara">Guadalajara</option>
+                		<option value="monterrey">Monterrey</option>
+                		<option value="mexico">México</option>
+                		<option value="guanajuato">Guanajuato</option>
+                	</select><br /><br />
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sexo" value="macuino">Masculino
+                    <input type="radio" name="sexo" value="femenino">Femenino<br/><br />
+                    Danos tu opinion: <br/><textarea name="msg"></textarea><br/><br />
+                    <input type="checkbox" name="notify" value="updates" checked>Te gustaria recibir notificaciones de ofertas en nuestro sitio.<br/>
+                    <input type="checkbox" name="notify" value="services">Te gustaria recibir noticias de nuestro sitio.<br/><br/> 
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+
+  <footer>
+    <a href="home.html"><img src="inicio.jpg" width="30" height="30" alt="Inicio" align:"center"></img></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+    <a href="https://es.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p"></i></a>
+    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa fa-twitter-square"></i></a>
+    <a href="https://plus.google.com/?hl=es_419" target="_blank"><i class="fa fa-google-plus-square"></i></a>
+    Copyright ©
+  </footer>
+</body>
+
+</html>
